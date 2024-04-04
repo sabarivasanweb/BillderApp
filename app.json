@@ -16,6 +16,23 @@
       ]
     ],
     "name": "BillderApp",
-    "slug": "BillderApp"
+    "slug": "BillderApp",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.Billder"
+    },
+    "ios": {
+      "bundleIdentifier": "com.Billder"
+    },
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "7a9e49ef-7b89-452c-8f8b-957cc306c6eb"
+      }
+    }
   }
 }
